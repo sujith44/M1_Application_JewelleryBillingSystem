@@ -5,3 +5,14 @@ feautures:
 •	Calculate total bills
 •	Categories divided
 •	Add, Modify, List, Edit and Remove Jewellery items
+
+4W and 1H:
+    Who:
+       Sujith a.j.r trying to implement a problem statement
+    What:
+        Jewelery billing system
+     Where:
+           Jewelery shops
+     How:
+         It is implemented using C programing language
+            
