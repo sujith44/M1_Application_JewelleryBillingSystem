@@ -1,18 +1,34 @@
-Introduction:
-            Jewellery Store Management System is based on a  concept to maintain jewellery records and calculate total bills for the store. Here at first, the user has to pass through login system to get access then, the user can Add, Edit, Delete, Search, View Jewellery items and Calculate Bills. This system makes easy for storing records within a short period of time rather than maintaining records in copies. 
-feautures:
- •Login system
-•	Calculate total bills
-•	Categories divided
-•	Add, Modify, List, Edit and Remove Jewellery items
+# Requirements
+## Introduction
+  Jewellery Store Management System is based on a  concept to maintain jewellery records and calculate total bills for the store. Here at first, the user has to pass through login system to get access then, the user can Add, Edit, Delete, Search, View Jewellery items and Calculate Bills. This system makes easy for storing records within a short period of time rather than maintaining records in copies. Under adding Jewellery items there are different categories such as Rings, Pendant, Ear Rings, Bracelet, Necklace and Jewellery Set. The whole project is designed in ‘C’ Programming language and different variables and strings have been used for the development of this project. This project is easy to operate and understood by the users.
 
-4W and 1H:
-    Who:
-       Sujith a.j.r trying to implement a problem statement
-    What:
-        Jewelery billing system
-     Where:
-           Jewelery shops
-     How:
-         It is implemented using C programing language
-            
+
+## SWOT ANALYSIS
+![SWOT-Sample](Link to Pic)
+
+# 4W&#39;s and 1&#39;H
+
+## Who:
+
+**Sujith a.j.r trying to implement a problem statement**
+
+## What:
+
+**Jewelery billing system**
+
+
+
+## Where:
+
+**Jewelery shops**
+
+## How:
+
+**It is implemented using C programing language**
+
+# Detail requirements
+## High Level Requirements:
+
+
+
+##  Low level Requirements:
