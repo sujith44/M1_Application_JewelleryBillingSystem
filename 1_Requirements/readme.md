@@ -4,7 +4,8 @@
 
 
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+Strength:
+
 
 # 4W&#39;s and 1&#39;H
 
