@@ -27,8 +27,10 @@ Strength:
 
 **It is implemented using C programing language**
 
-# Detail requirements
+
 ## High Level Requirements:
+   * It is a project developed to generate customer billing for jewellery shops
+   * It also helps in the billing process without causing any errors.
 
 
 
