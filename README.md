@@ -9,9 +9,9 @@
 
 ### Introduction
 
-The source code of Jewellery Shop Billing System Project in C has been written in C programming language without of the use of any graphics. The code is complete, totally error free. It is to be compiled in Visual studio using GCC compiler.
+The source code of Jewellery Shop Billing System Project  has been written using C programming language without of the use of any graphics. The code is complete, totally error free. It is to be compiled in Visual studio using GCC compiler.
 
-we can use this application to keep the product records such as name, code,prize,quantity,etc. of your regular stocks. Moreover, if we have a new product, we can add and edit  at any time.
+We can use this application to keep the product records such as name,code,prize,quantity,etc. of your regular stocks. Moreover, if we have a new product, we can add and edit  at any time.
 
 
 
