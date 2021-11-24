@@ -42,9 +42,21 @@ anytime
 
 
 ## High Level Requirements:
-   * It is a project developed to generate customer billing for jewellery shops
-   * It also helps in the billing process without causing any errors.
+   | ID | Description | Status |
+|------| ------| ------|
+| HLR1 | User shall be able to Add new Products (1) | Implemented
+|HLR2  | User shall be able to Remove Products (2) | Implemented
+|HLR3  | User shall be able to search products (3) |	Implemented
+|HLR4  | User shall be able to view Items (4) |	Implemented
+|HLR5  | User shall be able to edit Items(5) |	Implemented
+|HLR6  | User shall be able to generate the Bill(6) |	Implemented
+|HLR7  | User shall be able to exit(7) |	Implemented
+
 
 
 
 ##  Low level Requirements:
+| ID | Description | Status |
+|-------|------|------|
+| LLR1 | User shall be able to fetch Products | Implemented 
+| LLR2 |System must display data without error | Implemented
