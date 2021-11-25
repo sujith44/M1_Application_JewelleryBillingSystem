@@ -45,7 +45,7 @@ If you have nothing to do with the program, you can directly exit from the main 
 Folder               | Description
 -------------------  | -----------------------------------------
 `1_Requirements`     | Documents Detailing requirements and research.
-`2_Architecture`     | Documents Specifying design details.
+`2_Design`     | Documents Specifying design details.
 `3_Implementation`   | All Code and Documentation.
 `4_Test Plan`| Test Cases.
 
