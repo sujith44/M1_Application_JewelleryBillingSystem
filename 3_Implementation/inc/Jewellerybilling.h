@@ -16,6 +16,5 @@
 #include<time.h>
 
 
-void dummy(float a)
  
 #endif  /* #define _JewelleryBilling_H_  */
