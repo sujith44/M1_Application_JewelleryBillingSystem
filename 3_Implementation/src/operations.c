@@ -1,22 +1,47 @@
-char catagories[][15]={"Rings","Ear Rings","Bracelet","Pendant","Chain","Jewellery Set"};
+#include<windows.h>
+#include<stdio.h>
+#include<conio.h>
+#include <stdlib.h>
+#include<string.h>
+#include<ctype.h>
+#include<dos.h>
+#include<time.h>
+
+#define RETURNTIME 15
+
+char catagories[][15]={"Rings","Ear Rings","Bracelet","Pendant","Chain","Jewelry Set"};
 
 void returnfunc(void);
+
 void mainmenu(void);
+
 void additem(void);
+
 void deleteitem(void);
+
 void edititem(void);
+
 void searchitem(void);
+
 void viewitem(void);
+
 void closeapplication(void);
+
 void calculatebill(void);
+
 int  getdata();
+
 int  checkid(int);
+
 int t(void);
+
 
 void Password();
 
 void issuerecord();
+
 void loaderanim();
+
 
 FILE *fp,*ft,*fs;
 
@@ -25,6 +50,7 @@ COORD coord = {0, 0};
 int s;
 
 char findstaff;
+
 char password[10]={"sujith"};
 
 
@@ -37,6 +63,8 @@ coord.X = x; coord.Y = y;
 SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 
 }
+
+
 
 struct meroDate
 
@@ -86,6 +114,8 @@ getch();
 
 return 0;
 
+
+
 }
 
 void mainmenu()
@@ -101,6 +131,8 @@ gotoxy(20,3);
 printf(" \t\tMAIN MENU \n ");
 
 printf("\t\t\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\n");
+
+
 
 gotoxy(20,5);
 
@@ -180,7 +212,7 @@ system("cls");
 
 gotoxy(16,3);
 
-printf("\tJewellery Store Billing System");
+printf("\tJewelry Store Management System");
 
 gotoxy(16,4);
 
@@ -206,6 +238,7 @@ if(getch())
 mainmenu();
 
 }
+
 
 
 }
@@ -254,11 +287,14 @@ printf("<7> Back to main menu");
 
 gotoxy(20,21);
 
+
+
 printf("Enter your choice:");
 
 scanf("%d",&s);
 
 if(s==7)
+
 
 mainmenu() ;
 
@@ -333,7 +369,6 @@ while(fread(&a,sizeof(a),1,fp)==1)
 if(a.id==d)
 
 {
-
 
 
 gotoxy(10,7);
@@ -539,6 +574,8 @@ findstaff='t';
 
 }
 
+
+
 }
 
 if(findstaff!='t')
@@ -629,11 +666,17 @@ if(strcmp(a.name,(s))==0)
 
 }
 
+
+
 }
 
 if(d==0)
 
+
+
 printf("\aNo Record Found");
+
+
 
 gotoxy(20,d+11);
 
@@ -662,6 +705,7 @@ searchitem();
 fclose(fp);
 
 }
+
 
 void viewitem(void)
 
@@ -958,6 +1002,10 @@ scanf("%i",&a.karat);
 
 gotoxy(21,11);
 
+
+
+
+
 return 1;
 
 }
@@ -994,9 +1042,13 @@ return 0 ;
 
 }
 
+
+
 void Password(void)
 
 {
+
+
 
 system("cls");
 
@@ -1006,9 +1058,12 @@ char ch,pass[10];
 
 int i=0,j;
 
+
+
 	printf("\t\t\t\t\tWELCOME\n\t\t\t\t\t  To \n\t\t   \xB2\xB2\xB2\xB2\xB2\xB2 Jewelry Store Management System \xB2\xB2\xB2\xB2\xB2\xB2\n");
 
 	printf("\t \n\n\n Enter Password:");
+
 
 while(ch!=13)
 
@@ -1109,6 +1164,3 @@ void calculatebill()
 getch();
 mainmenu();
 }
-
-
-
