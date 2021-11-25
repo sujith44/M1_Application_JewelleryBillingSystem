@@ -7,6 +7,10 @@
 [![Unit Testing - Unity](https://github.com/sujith44/M1_Application_JewelleryBillingSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/sujith44/M1_Application_JewelleryBillingSystem/actions/workflows/unity.yml)
 
 
+[![Code Quality - Static Code - Cppcheck](https://github.com/sujith44/M1_Application_JewelleryBillingSystem/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sujith44/M1_Application_JewelleryBillingSystem/actions/workflows/cppcheck.yml)
+
+
+
 ### Introduction
 
 The source code of Jewellery Shop Billing System Project  has been written using C programming language without of the use of any graphics. The code is complete, totally error free. It is to be compiled in Visual studio using GCC compiler.
