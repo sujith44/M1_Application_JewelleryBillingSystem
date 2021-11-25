@@ -42,14 +42,14 @@ void test_searchrecords(void)
 
 void test_addrecords(void)
 {
-    char name[20]="12345";
+    char name[20]="Nirmal";
 
-    char company[20]="NIRMAL";
+    char company[20]="RJ Jewellers";
 
     char price [20]="36800";
 
- TEST_ASSERT_EQUAL("12345", name);
- TEST_ASSERT_EQUAL("NIRMAL", company);
+ TEST_ASSERT_EQUAL("Nirmal", name);
+ TEST_ASSERT_EQUAL("RJ Jewellers", company);
  TEST_ASSERT_EQUAL("36800", price);
    
 }
